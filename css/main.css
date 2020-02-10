@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    display: grid;
+    height: 200px;
+    width: 500px;
+    margin: 200px auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 35px 1fr 35px;
+}
+
+h1 {
+    background-color: #84CA77 ;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    grid-column: span 2;
+}
+
+input {
+    border: 3px solid #84CA77;
+    font-size: 15px;
+    height: 40px;
+    width: 350px;
+    grid-column: span 1;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #EF5A5D;
+    border: #FFFFFF;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+#addSkill {
+    border: 3px solid #84CA77;
+    color: #84CA77;
+    font-size: 15px;
+    height: 40px;
+    width: 150px;
+    margin-left: 4px;
+    grid-column: span 1;
+}
+
+ul {
+    grid-column: span 2;
+    list-style-type: none;
+    color: #FF9700;
+    padding: 10px 0px 10px 0px;
+}
+
